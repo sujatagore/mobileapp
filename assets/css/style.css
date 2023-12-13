@@ -1,0 +1,340 @@
+
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.hero-section{
+	padding:45px 0 65px;
+	background-image:url("../images/bg-2.png");
+	height:850px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+	overflow:hidden;
+	transition:all 0.7s linear;
+	cursor:pointer;
+}
+
+.hero-section .logo{
+	margin-bottom:140px;
+	transform:all 0.7s ease-in;
+}
+
+.hero-section .logo:hover{
+	transform:scale(1.5);
+}
+
+.navbar ul{
+	padding-top:15px;
+}
+
+.navbar ul li{
+	display:inline-block;
+	margin-left:15px;
+}
+
+.navbar ul li a{
+	color:#ffffff;
+	font-size:16px;
+	font-weight:400;
+	text-transform:uppercase;
+	padding:10px;
+	position:relative;
+}
+
+.navbar ul li a:after{
+	content:"";
+	height:3px;
+	width:0;
+	background-color:#ffffff;
+	position:absolute;
+	transition:all 0.7s linear;
+	bottom:0;
+	left:0;
+}
+
+.navbar ul li a:hover::after{
+	width:100%;
+}
+
+.chocolate-info h1{
+	font-size:52px;
+	font-weight:bold;
+	color:#ffffff;
+	text-transform:uppercase;
+	margin-bottom:60px;
+}
+
+.chocolate-info p{
+	font-size:36px;
+	font-weight:400;
+	color:#ffffff;
+	margin-bottom:50px;
+}
+
+.chocolate-info .btn{
+  background-color:#282828; 
+  border:none; 
+  color:#ffffff; 
+  padding:15px 50px 15px 35px; 
+  font-size:17.33px;
+  text-transform:uppercase;
+  border-radius:45px;
+  cursor:pointer; 
+}
+
+.chocolate-info .btn:hover {
+  background-color:#ffffff;
+  color:#282828;
+}
+
+.chocolate-info .btn i{
+	margin-right:25px;
+	font-size:45px;
+	vertical-align:middle;
+}
+
+.hero-section .mobimg{
+	position:relative;
+}
+
+.hero-section .mobimg img{
+	position:absolute;
+	right:10px;
+	top:-40px;
+}
+
+		/*....................................hero-section css end .........................................*/
+
+
+.app-features{
+	padding:90px 0 115px;
+}
+
+.app-features h1{
+	margin-bottom:45px;
+	color:#8a8a8a;
+	font-size:52px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+.app-features p{
+	margin-bottom:65px;
+	color:#3a3a3a;
+	font-size:22px;
+	font-weight:400;
+}
+
+.circularImg img{
+	margin-bottom:40px;
+	width:175px;
+	height:175px;
+	transition:all 0.7s ease-in-out;
+	cursor:pointer;
+}
+
+.circularImg .img:hover{
+	transform:rotate(180deg);
+}
+
+.circularImg h2{
+	color:#1a1a1a;
+	font-size:24px;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-bottom:45px;
+}
+
+
+
+				/*....................................app-features css end .........................................*/
+				
+.choco-info{
+	padding:195px 0 175px;
+	background-image:url("../images/bg-choco-2.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+}
+
+.choco-info h3{
+	font-size:52px;
+	font-weight:bold;
+	color:#ffffff;
+	text-transform:uppercase;
+	margin-bottom:60px;
+}
+
+.choco-info h3 .choco{
+	color:#f55150;
+}
+
+.choco-info p{
+	font-size:24px;
+	font-weight:400;
+	color:#ffffff;
+	margin-bottom:80px;
+}
+
+.choco-info .button{
+	font-size:15px;
+	font-weight:bold;
+	color:#ffffff;
+	background-color:#d9332d;
+	text-transform:uppercase;
+	border-radius:35px;
+	padding:20px 15px;
+	border:2px solid #d9332d;
+	cursor:pointer;
+}
+
+.choco-info .button:hover{
+	color:#d9332d;
+	background-color:#ffffff;
+}
+
+
+			/*....................................choco-info css end .........................................*/
+			 
+.post{
+	padding:120px 0 150px;
+	background-color:#2e2e38;
+}
+
+.postppl .logo{
+	margin-bottom:60px;
+	transform:all 0.7s ease-out;
+}
+
+.postppl .logo:hover{
+	transform:skew(30deg);
+}
+
+.post .f-list h4{
+	font-size:22px;
+	font-weight:bold;
+	color:#ffffff;
+	text-transform:capitalize;
+	margin-bottom:30px;
+}
+
+.post .f-list .box{
+	width:55px;
+	height:40px;
+	background-color:#e74c3c;
+	margin-bottom:30px;
+}
+
+.f-list ul li{
+	display:table;
+	clear:both;
+	width:100%;
+}
+
+.f-list ul li div{
+	float:left;
+}
+
+.f-list .list-info{
+	margin-left:15px;
+	padding-top:5px;
+}
+
+.f-list .list-info p{
+	color:#ffffff;
+	font-size:15px;
+	font-weight:400;
+}
+
+.list-info li{
+	font-size:15px;
+	font-weight:400;
+	color:#ffffff;
+}
+
+.f-list .suit-list li{
+	font-size:14px;
+	font-weight:bold;
+	color:#ffffff;
+	margin-bottom:20px;
+	text-transform:capitalize;
+	width:80%;
+}
+
+.f-list .suit-list .text1{
+	font-size:11px;
+	font-weight:400;
+}
+
+.f-list .suit-list .text2{
+	font-weight:400;
+}
+
+.f-list .suit-list .text3 a{
+	color:#ffffff;
+}
+
+.f-list .listinfo .para{
+	color:#ffffff;
+	font-size:15px;
+	font-weight:400;
+	font-style:italic;
+}
+
+
+			/*....................................post css end .........................................*/
+			
+.footer{
+	padding:50px 0 40px;
+	background-color:#d7dedc;
+	cursor:pointer;
+}
+
+.footer .links li{
+	font-size:25px;
+	font-weight:400;
+	color:#000000;
+	margin-left:25px;
+}
+
+.links li{
+	display:inline-block;
+}
+
+.footer .links .icons{
+	font-size:26px;
+}
+
+.footer .links .icons .facebook{
+	color:#4661a0;
+	transition:all 0.7s linear;
+	margin-right:20px;
+}
+
+.icons .facebook:hover{
+	transform:scale(2);
+}
+
+.footer .links .icons .dribbble{
+	color:#dc3b7b;
+	transition:all 0.7s linear;
+	margin-right:20px;
+}
+
+.icons .dribbble:hover{
+	transform:scale(2);
+}
+
+.footer .links .icons .twitter{
+	color:#26628d;
+	transition:all 0.7s linear;
+	margin-right:20px;
+}
+
+.icons .twitter:hover{
+	transform:scale(2);
+}
